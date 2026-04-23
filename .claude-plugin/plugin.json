@@ -1,7 +1,7 @@
 {
   "name": "bolster",
   "description": "Personal best practices, development environment standards, voice/style guidelines, and tooling patterns for Andrew Bolster's Claude Code sessions.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Andrew Bolster",
     "email": "andrew@bolster.online"
@@ -9,5 +9,12 @@
   "homepage": "https://bolster.online",
   "repository": "https://github.com/andrewbolster/claude-plugin",
   "license": "MIT",
-  "keywords": ["personal", "best-practices", "development", "python", "uv", "style"]
+  "keywords": [
+    "personal",
+    "best-practices",
+    "development",
+    "python",
+    "uv",
+    "style"
+  ]
 }
