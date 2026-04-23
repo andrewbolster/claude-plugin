@@ -7,7 +7,7 @@
     "email": "andrew@bolster.online"
   },
   "homepage": "https://bolster.online",
-  "repository": "https://github.com/bd-vitalstatistix/claude-marketplace",
+  "repository": "https://github.com/andrewbolster/claude-plugin",
   "license": "MIT",
   "keywords": ["personal", "best-practices", "development", "python", "uv", "style"]
 }
