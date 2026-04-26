@@ -1,7 +1,7 @@
 {
   "name": "bolster",
   "description": "Personal best practices, development environment standards, voice/style guidelines, and tooling patterns for Andrew Bolster's Claude Code sessions.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Andrew Bolster",
     "email": "andrew@bolster.online"
