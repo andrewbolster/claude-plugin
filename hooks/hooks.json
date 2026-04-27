@@ -1,0 +1,18 @@
+{
+  "description": "Background maintenance hooks for the bolster personal plugin",
+  "hooks": {
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "claude plugins list 2>/dev/null | awk '/❯/{print $2}' | xargs -I {} claude plugins update '{}' 2>/dev/null",
+            "statusMessage": "Updating installed Claude Code plugins...",
+            "async": true,
+            "timeout": 600
+          }
+        ]
+      }
+    ]
+  }
+}
